@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Mingzat&family=Poppins&display=swap");
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+.banner-name {
+  color: white;
+  padding-top: 33px;
+  padding-left: 100px;
+  
+}
+#banner-id-h{
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 48px;
+  margin-bottom: 0px;
+}
+#banner-id-p{
+  width: 60%;
+}
+.banner-button{
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  font-weight: 700;
+  border-radius:7px;
+  border: none;
+
+}
+.background-banner {
+  background-color: black;
+  /* width: 1321px; */
+  height: 410px;
+  margin-top: 50px;
+  margin-right: 141px;
+  margin-left: 131px;
+
+  border-radius: 30px;
+}
+
+.banner-image {
+  background-image: url("/image/Banner\ Image.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 581px;
+  height: 613px;
+  left: 823px;
+  top: 120px;
+}
