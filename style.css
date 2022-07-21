@@ -4,7 +4,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-                /* 
+/* 
                  01. Banner Part
                                 */
 .banner-name {
@@ -34,7 +34,6 @@ body {
 }
 .background-banner {
   background-color: black;
-  /* width: 1321px; */
   height: 410px;
   margin-top: 50px;
   margin-right: 141px;
@@ -52,13 +51,28 @@ body {
   left: 823px;
   top: 120px;
 }
-            /* 
-            
+/* 
+            02.match part
                    */
+.fast-match {
+    text-align: center;
+    height: 227px;
+    width: 22%;
+    margin-left: 10%;
+    margin-top: 7%;
+  /* margin-right: 981px; */
+  background: black;
+  border-radius: 10px;
+  
+}
+.fast-match-text{
+  background-color: white;
+  
+  
+}
 
-
-            /* 
-              FOOTER PART
+/* 
+              03.FOOTER PART
                           */
 .footer-part {
   text-align: center;
@@ -70,18 +84,18 @@ body {
   margin-top: 100px;
 }
 
-hr{
+hr {
   width: 80%;
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
-.footer-last-part{
+.footer-last-part {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   font-size: 12px;
   /* display: grid;
   grid-template-columns:repeat(6,1fr);
   column-gap: 0px; */
 }
-.footer-last-part p{
+.footer-last-part p {
   padding: 10px;
 }
