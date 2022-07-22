@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Mingzat&family=Poppins&display=swap");
+/* importing google-fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -7,16 +9,12 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-
-/* 
-                 01. Banner Part
-                 */
-
+/* header starts */
 header {
   max-width: 800px;
   margin: 0 auto;
   display: flex;
-  background-color: black;
+  background-color:black;
   margin-top: 33px;
   border-radius: 20px;
   justify-content: flex-end;
@@ -57,10 +55,9 @@ header {
   padding: 11px 35px 11px 13px;
   border-radius: 5px;
 }
+/* header ends here */
 
-/* 
-            02.match part
-                   */
+/* main starts here */
 .world-cup-fixtures {
   max-width: 800px;
   margin: 0 auto;
@@ -90,6 +87,7 @@ header {
 .upcoming-match {
   padding: 5px 10px;
   border-radius: 5px;
+  background: dodgerblue !important;
 }
 .all-group {
   padding: 5px 30px;
@@ -98,66 +96,74 @@ header {
 .thumbnail img {
   width: 100%;
 }
-.special-btn {
+.special-blog {
   padding: 5px 41px;
   border-radius: 5px;
-  background: dodgerblue !important;
 }
 
-.blogs {
+.matches {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
 }
 
-.blog {
+.match {
   width: 200px;
-  /* height: 332px; */
+  height: 160px;
   border: 1px solid #e8e8e8;
   border-radius: 10px;
 }
 
-.transfer-btn {
-  border: 1px solid black;
-  border-radius: 3px;
-  padding: 3px 10px;
-  background: white;
-}
-.blog h4 {
+.match h5 {
+  font-size: 15px;
   font-weight: 600;
-  font-size: 14px;
+  color: rgba(22, 22, 22, 1);
 }
-.transfer-info {
-  display: flex;
-}
-.transfer-details {
-  padding: 12px 18px;
-}
-.transfer-details h4 {
-  padding: 11px 0;
-}
-.transfer-info {
-  color: rgba(22, 22, 22, 0.7);
+.match p {
+  color: rgba(77, 77, 77, 1);
+  font-size: 12px;
 }
 
-.fa-regular {
+.match-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+}
+
+.flags {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flags img {
+  width: 70px;
+  height: 43px;
+}
+
+.german-flag {
   margin-right: 10px;
 }
-
-.transfer-duration {
-  margin-right: 35px;
+.france-img {
+  margin-left: 10px;
 }
 
-/* 
-              03.FOOTER PART
-                          */
+/* main ends here */
+
+/* footer starts here */
 footer {
   display: flex;
   background: #161616;
   flex-direction: column;
   align-items: center;
-  height: 275px;
+  height: 244px;
   margin-top: 60px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 footer h4 {
@@ -165,9 +171,6 @@ footer h4 {
   font-weight: 600;
   padding-top: 75px;
   padding-bottom: 30px;
-}
-.goal {
-  font-size: 21px;
 }
 
 .meet-us ul {
@@ -178,7 +181,7 @@ footer h4 {
 .meet-us ul li a {
   text-decoration: none;
   color: #ffffff;
-  font-size: 8px;
+  font-size: 10px;
   font-weight: 500;
   margin: 0 15px;
 }
@@ -198,3 +201,4 @@ footer h4 {
 .fa-brands {
   font-size: 20px;
 }
+/* footer ends here */
