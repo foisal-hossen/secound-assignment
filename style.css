@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Mingzat&family=Poppins&display=swap");
-body {
+* {
   margin: 0;
+  padding: 0;
+}
+
+body {
   font-family: "Poppins", sans-serif;
 }
 
@@ -19,7 +23,9 @@ body {
   margin-bottom: 0px;
 }
 #banner-id-p {
-  width: 60%;
+  width: 50%;
+  padding-bottom: 24px;
+  padding-top: 10px;
 }
 .banner-button {
   background-color: red;
@@ -33,11 +39,16 @@ body {
   padding-left: 7px;
 }
 .background-banner {
-  background-color: black;
-  height: 410px;
-  margin-top: 50px;
-  margin-right: 141px;
-  margin-left: 131px;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  background-color: #262222;
+  margin-top: 25px;
+  border-radius: 20px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-bottom: 35px;
+  margin-bottom: 80px;
 
   border-radius: 30px;
 }
@@ -48,27 +59,97 @@ body {
   position: absolute;
   width: 581px;
   height: 613px;
-  left: 823px;
-  top: 120px;
+  left: 744px;
+  top: 77px;
 }
 /* 
             02.match part
                    */
-.fast-match {
-    text-align: center;
-    height: 227px;
-    width: 22%;
-    margin-left: 10%;
-    margin-top: 7%;
-  /* margin-right: 981px; */
-  background: black;
-  border-radius: 10px;
-  
+.world-cup-fixtures {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
 }
-.fast-match-text{
-  background-color: white;
-  
-  
+.switch-table {
+  padding: 11px 18px;
+  background-color: #262222;
+  border-radius: 4px;
+  max-width: 185px;
+  height: 115px;
+}
+.switch-table ul {
+  list-style: none;
+}
+.switch-table ul li {
+  margin: 10px 0px;
+}
+.switch-table ul li a {
+  background: white;
+  text-decoration: none;
+  color: black;
+  font-size: 10px;
+  font-weight: 500;
+}
+.upcoming-match {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.all-group {
+  padding: 5px 30px;
+  border-radius: 5px;
+}
+.thumbnail img {
+  width: 100%;
+}
+.special-btn {
+  padding: 5px 41px;
+  border-radius: 5px;
+  background: #00ff8e !important;
+}
+
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.blog {
+  width: 200px;
+  /* height: 332px; */
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+}
+
+.transfer-btn {
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 3px 10px;
+  background: white;
+}
+.blog h4 {
+  font-weight: 600;
+  font-size: 14px;
+}
+.transfer-info {
+  display: flex;
+}
+.transfer-details {
+  padding: 12px 18px;
+}
+.transfer-details h4 {
+  padding: 11px 0;
+}
+.transfer-info {
+  color: rgba(22, 22, 22, 0.7);
+}
+
+.fa-regular {
+  margin-right: 10px;
+}
+
+.transfer-duration {
+  margin-right: 35px;
 }
 
 /* 
@@ -87,14 +168,12 @@ body {
 hr {
   width: 80%;
   border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-left: 94px;
 }
 .footer-last-part {
   display: flex;
   justify-content: center;
   font-size: 12px;
-  /* display: grid;
-  grid-template-columns:repeat(6,1fr);
-  column-gap: 0px; */
 }
 .footer-last-part p {
   padding: 10px;
